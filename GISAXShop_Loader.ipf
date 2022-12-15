@@ -14,9 +14,5 @@
 // This file can define any number of menu items, each of which can load a different package that you have created.
 
 Menu "BESSRC"
-	"Load BESSRC Acq",/Q,Execute/P/Q/Z "INSERTINCLUDE \"BESSRCmenu\"";Execute/P/Q/Z "COMPILEPROCEDURES "
-End
-
-Menu "BESSRC"
 	"Load GISAXS",/Q,Execute/P/Q/Z "INSERTINCLUDE \"GISAXSinitialize\"";Execute/P/Q/Z "COMPILEPROCEDURES "
 End
